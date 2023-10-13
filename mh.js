@@ -513,6 +513,10 @@ var getMapPort;
 //     g_strScriptHandler = undefined;
 // }
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 console.log(user);
 exeScript();
 
@@ -3434,9 +3438,10 @@ function ssFactory(){
     }
 }
 
-function halloween(){
+async function halloween(){
     if(GetCurrentLocation().indexOf('Gloomy Greenwood') < 0)
         return;
+    await new Promise(r => setTimeout(r, 2500 + 1000 * Math.random()));
     var hud = document.getElementsByClassName('halloweenBoilingCauldronHUD-cauldronContainer')[0];
     for (var i = 0; i < 2; i++) {
         var curr = hud.children[i]
@@ -3445,15 +3450,12 @@ function halloween(){
             fireEvent(curr.children[1].children[0], 'click');
             console.log("can brew")
             await new Promise(r => setTimeout(r, 2500 + 1000 * Math.random()));
-            console.log(1)
             var popup = document.getElementById("overlayPopup")
             var brews = popup.getElementsByClassName("halloweenBoilingCauldronRecipeView-recipeList")[0]
             var brewed = false
             for (var j = 0; j < 5; j++){
                 var curr_brew = brews.children[j]
-                console.log(2)
                 while (!curr_brew.className.includes("disabled")){
-                    console.log(3)
                     console.log("can brew", j)
                     fireEvent(curr_brew.children[2].children[0], 'click');
                     await new Promise(r => setTimeout(r, 2500 + 1000 * Math.random()));
