@@ -3473,18 +3473,19 @@ async function halloween(){
     var bait_elements = document.getElementsByClassName("halloweenBoilingCauldronHUD-baitContainer")[0].children
     for (i = 4; i >=0; i--){
         var curr_bait = bait_elements[i]
+        var count = parseInt(curr_bait.children[1].innerHTML)
+        if (count <= 5){
+            continue;
+        }
         if (curr_bait.className.includes("active")){
             break;
         }
-        var count = parseInt(curr_bait.children[1].innerHTML)
         if (i == 0){
             fireEvent(curr_bait.children[0].children[0], "click")
             break
         }
-        if (count > 5){
-            fireEvent(curr_bait.children[0], "click")
-            break
-        }
+        fireEvent(curr_bait.children[0], "click")
+        break
     }
 }
 
