@@ -134,28 +134,28 @@ var objTrapList = {
 
 // // Trap Collection
 var objTrapCollection = {
-    weapon: ["Chrome Temporal Turbine","Chrome Grand Arcanum Trap","Rocket Propelled Gavel Trap","Timesplit Dissonance Weapon","Meteor Prison Core Trap","Sprinkly Cupcake Surprise Trap","New Horizon Trap","New Year's Fireworks Trap","Holiday Hydro Hailstone Trap","Festive Forgotten Fir Trap","Interdimensional Crossbow Trap","Droid Archmagus Trap","Sandcastle Shard","Crystal Mineral Crusher Trap","Biomolecular Re-atomizer Trap","Chrome Arcane Capturing Rod","Law Laser Trap","Zugzwang's Ultimate Move","2010 Blastoff Trap","2012 Big Boom Trap","500 Pound Spiked Crusher","Ambrosial Portal","Ambush","Ancient Box Trap","Ancient Gauntlet","Ancient Spear Gun","Arcane Blast Trap","Arcane Capturing Rod Of Never Yielding Mystery","Bandit Deflector","Birthday Candle Kaboom","Birthday Party Piñata Bonanza","Blackstone Pass Trap","Bottomless Grave","Brain Extractor","Bubbles: The Party Crasher Trap","Cackle Lantern Trap","Candy Crusher Trap","Chesla's Revenge","Christmas Cracker Trap","Chrome DeathBot","Chrome DrillBot","Chrome MonstroBot","Chrome Nannybot","Chrome Oasis Water Node Trap","Chrome Onyx Mallet","Chrome Phantasmic Oasis Trap","Chrome RhinoBot","Chrome Sphynx Wrath","Chrome Tacky Glue Trap","Clockapult of Time","Clockapult of Winter Past","Clockwork Portal Trap","Crystal Crucible Trap","Crystal Tower","Digby DrillBot","Dimensional Chest Trap","Double Diamond Adventure","Dragon Lance","Dreaded Totem Trap","Endless Labyrinth Trap","Engine Doubler","Enraged RhinoBot","Event Horizon","Explosive Toboggan Ride","Festive Gauntlet Crusher","Fluffy DeathBot","Focused Crystal Laser","The Forgotten Art of Dance","Forgotten Pressure Plate Trap","Giant Speaker","Gingerbread House Surprise","Glacier Gatler","Gorgon Trap","Grand Arcanum Trap","Grungy DeathBot","Harpoon Gun","Heat Bath","High Tension Spring","HitGrab Horsey","HitGrab Rainbow Rockin' Horse","HitGrab Rockin' Horse","Horrific Venus Mouse Trap","Ice Blaster","Ice Maiden","Icy RhinoBot","Infinite Labyrinth Trap","Infinite Winter Horizon Trap","Isle Idol Trap","Isle Idol Trap","Isle Idol Trap","Kraken Chaos","The Law Draw","Maniacal Brain Extractor","Mouse DeathBot","Mouse Hot Tub","Mouse Mary O'Nette","Mouse Rocketine","Mouse Trebuchet","Multi-Crystal Laser","Mutated Venus Mouse Trap","Mysteriously unYielding Null-Onyx Rampart of Cascading Amperes","Mystic Pawn Pincher","Nannybot","Net Cannon","Ninja Ambush Trap","Nutcracker Nuisance Trap","NVMRC Forcefield Trap","Oasis Water Node Trap","Obelisk of Incineration","Obelisk of Slumber","Obvious Ambush Trap","Onyx Mallet","PartyBot","Phantasmic Oasis Trap","Pneumatic Tube Trap","Pumpkin Pummeler","Reaper's Perch","Rewers Riposte","RhinoBot","Rune Shark Trap","S.A.M. F.E.D. DN-5","S.L.A.C.","S.L.A.C. II","S.U.P.E.R. Scum Scrubber","Sandstorm MonstroBot","Sandtail Sentinel","School of Sharks","Scum Scrubber","Shrink Ray Trap","Sinister Portal","Snow Barrage","Snowglobe Trap","Soul Catcher","Soul Harvester","Sphynx Wrath","Stale Cupcake Golem Trap","Steam Laser Mk. I","Steam Laser Mk. II","Steam Laser Mk. II (Broken!)","Steam Laser Mk. III","Supply Grabber","Swiss Army Mouse Trap","Tacky Glue Trap","Tarannosaurus Rex Trap","Technic Pawn Pincher","Temporal Turbine","Terrifying Spider Trap","Thorned Venus Mouse Trap","Ultra MegaMouser MechaBot Trap","Veiled Vine Trap","Venus Mouse Trap","Warden Slayer Trap","Warpath Thrasher","Wrapped Gift Trap","Zugzwang's First Move","Zugzwang's Last Move","Zurreal's Folly"],
-    base: ["Ancient Booster Base","Ultimate Iceberg Base","Clockwork Base","Sprinkly Sweet Cupcake Birthday Base","Rooster Jade Base","2017 New Year's Base","Aqua Base","Attuned Enerchi Induction Base","Bacon Base","Bamboozler Base","Birthday Cake Base","Birthday Dragée Cake Base","Bronze Tournament Base","Candy Cane Base","Carrot Birthday Cake Base","Cheesecake Base","Chocolate Birthday Cake Base","Claw Shot Base","Crushed Birthday Cake Base","Cupcake Birthday Base","Deep Freeze Base","Dehydration Base","Depth Charge Base","Dragon Jade Base","Eerie Base","Eerier Base","Enerchi Induction Base","Explosive Base","Extra Sweet Cupcake Birthday Base","Fan Base","Firecracker Base","Fissure Base","Fracture Base","Gingerbread Base","Golden Tournament Base","Hearthstone Base","Horse Jade Base","Hothouse Base","Jade Base","Labyrinth Base","Living Base","Magma Base","Magnet Base","Minotaur Base","Molten Shrapnel Base","Monkey Jade Base","Monolith Base","Papyrus Base","Physical Brace Base","Polar Base","Polluted Base","Prestige Base","Refined Pollutinum Base","Remote Detonator Base","Rift Base","Runic Base","Seasonal Base","Sheep Jade Base","Silver Tournament Base","Skello-ton Base","Snake Jade Base","Soiled Base","Spellbook Base","Spiked Base","Stone Base","Tidal Base","Tiki Base","Tribal Base","Tribal Kaboom Base","Washboard Base","Wooden Base","Wooden Base with Target"],
-    bait: ["Magical Rancid Radioactive Blue Cheese","Undead String Emmental","Ancient String Cheese","Runic String Cheese","Sunrise Cheese","Dumpling Cheese","Crescent Cheese","Ancient Cheese","Arctic Asiago Cheese","Ascended Cheese","Brie Cheese","Brie String Cheese","Candy Corn Cheese","Checkmate Cheese","Cheddar Cheese","Cherry Cheese","Combat Cheese","Creamy Havarti Cheese","Crunchy Cheese","Crunchy Havarti Cheese","Cupcake Colby","Dewthief Camembert","Diamond Cheese","Duskshade Camembert","Extra Sweet Cupcake Colby","Festive Feta","Fishy Fromage","Fusion Fondue","Galleon Gouda","Gauntlet Cheese Tier 2","Gauntlet Cheese Tier 3","Gauntlet Cheese Tier 4","Gauntlet Cheese Tier 5","Gauntlet Cheese Tier 6","Gauntlet Cheese Tier 7","Gauntlet Cheese Tier 8","Gemstone Cheese","Ghoulgonzola Cheese","Gilded Cheese","Gingerbread Cheese","Glowing Gruyere Cheese","Glutter Cheese","Gnarled Cheese","Gouda Cheese","Graveblossom Camembert","Grilled Cheese","Gumbo Cheese","Inferno Havarti Cheese","Lactrodectus Lancashire Cheese","Limelight Cheese","Lunaria Camembert","Magical Havarti Cheese","Magical String Cheese","Maki Cheese","Maki String Cheese","Marble Cheese","Marble String Cheese","Marshmallow Monterey","Master Fusion Cheese","Mineral Cheese","Moon Cheese","Mozzarella Cheese","Null Onyx Gorgonzola","Nutmeg Cheese","Onyx Gorgonzola","Polluted Parmesan Cheese","Pungent Havarti Cheese","Radioactive Blue Cheese","Rancid Radioactive Blue Cheese","Rift Combat Cheese","Rift Glutter Cheese","Rift Rumble Cheese","Rift Susheese Cheese","Riftiago Cheese","Resonator Cheese","Rockforth Cheese","Rumble Cheese","Runic Cheese","Runny Cheese","Seasoned Gouda","Shell Cheese","Snowball Bocconcini","Spicy Havarti Cheese","SUPER|brie+","Susheese Cheese","Sweet Havarti Cheese","Swiss Cheese","Swiss String Cheese","Terre Ricotta Cheese","Toxic Brie","Toxic SUPER|brie+","Undead Emmental","Vanilla Stilton Cheese","Vengeful Vanilla Stilton Cheese","White Cheddar Cheese","Wicked Gnarly Cheese"],
-    trinket: ["Rift Airship Charm","Ultimate Wealth Charm","Super Enerchi Charm","Rift Charm","Nightlight Charm","Rift Wealth Charm","Rift Extreme Luck Charm","Rift Extreme Power Charm","Rift Luck Charm","Rift Super Luck Charm","Rift Antiskele Charm","Realm Ripper Charm","Timesplit Charm","Lucky Valentine Charm","Festive Anchor Charm","2014 Charm","2015 Charm","2016 Charm","2017 Charm","Airship Charm","Amplifier Charm","Ancient Charm","Antiskele Charm","Artisan Charm","Athlete Charm","Attraction Charm","Baitkeep Charm","Black Powder Charm","Blue Double Sponge Charm","Brain Charm","Bravery Charm","Cackle Charm","Cactus Charm","Candy Charm","Champion Charm","Cherry Charm","Chrome Charm","Clarity Charm","Compass Magnet Charm","Crucible Cloning Charm","Cupcake Charm","Dark Chocolate Charm","Derr Power Charm","Diamond Boost Charm","Door Guard Charm","Dragonbane Charm","Dragonbreath Charm","Dreaded Charm","Dusty Coal Charm","Eggscavator Charge Charm","Eggstra Charge Charm","Eggstra Charm","Elub Power Charm","EMP400 Charm","Empowered Anchor Charm","Enerchi Charm","Extra Spooky Charm","Extra Sweet Cupcake Charm","Extreme Ancient Charm","Extreme Attraction Charm","Extreme Luck Charm","Extreme Polluted Charm","Extreme Power Charm","Extreme Wealth Charm","Festive Ultimate Luck Charm","Festive Ultimate Power Charm","Firecracker Charm","First Ever Charm","Flamebane Charm","Forgotten Charm","Freshness Charm","Gargantua Guarantee Charm","Gemstone Boost Charm","Gilded Charm","Glowing Gourd Charm","Gnarled Charm","Golden Anchor Charm","Greasy Glob Charm","Growth Charm","Grub Salt Charm","Grub Scent Charm","Grubling Bonanza Charm","Grubling Chow Charm","Haunted Ultimate Luck Charm","Horsepower Charm","Hydro Charm","Lantern Oil Charm","Luck Charm","Lucky Power Charm","Lucky Rabbit Charm","Magmatic Crystal Charm","Mining Charm","Mobile Charm","Monger Charm","Monkey Fling Charm","Nanny Charm","Nerg Power Charm","Nightshade Farming Charm","Nitropop Charm","Oxygen Burst Charm","Party Charm","Polluted Charm","Power Charm","Prospector's Charm","Rainbow Luck Charm","Ramming Speed Charm","Red Double Sponge Charm","Red Sponge Charm","Regal Charm","Rift Power Charm","Rift Ultimate Luck Charm","Rift Ultimate Lucky Power Charm","Rift Ultimate Power Charm","Rift Vacuum Charm","Roof Rack Charm","Rook Crumble Charm","Rotten Charm","Safeguard Charm","Scholar Charm","Scientist's Charm","Searcher Charm","Shadow Charm","Shamrock Charm","Shattering Charm","Sheriff's Badge Charm","Shielding Charm","Shine Charm","Shortcut Charm","Smart Water Jet Charm","Snakebite Charm","Snowball Charm","Soap Charm","Softserve Charm","Spellbook Charm","Spiked Anchor Charm","Sponge Charm","Spooky Charm","Spore Charm","Stagnant Charm","Sticky Charm","Striker Charm","Super Ancient Charm","Super Attraction Charm","Super Brain Charm","Super Cactus Charm","Super Luck Charm","Super Nightshade Farming Charm","Super Polluted Charm","Super Power Charm","Super Regal Charm","Super Rift Vacuum Charm","Super Rotten Charm","Super Salt Charm","Super Soap Charm","Super Spore Charm","Super Warpath Archer Charm","Super Warpath Cavalry Charm","Super Warpath Commander's Charm","Super Warpath Mage Charm","Super Warpath Scout Charm","Super Warpath Warrior Charm","Super Wealth Charm","Supply Schedule Charm","Tarnished Charm","Taunting Charm","Treasure Trawling Charm","Ultimate Anchor Charm","Ultimate Ancient Charm","Ultimate Attraction Charm","Ultimate Charm","Ultimate Luck Charm","Ultimate Lucky Power Charm","Ultimate Polluted Charm","Ultimate Power Charm","Ultimate Spore Charm","Uncharged Scholar Charm","Unstable Charm","Valentine Charm","Warpath Archer Charm","Warpath Cavalry Charm","Warpath Commander's Charm","Warpath Mage Charm","Warpath Scout Charm","Warpath Warrior Charm","Water Jet Charm","Wax Charm","Wealth Charm","Wild Growth Charm","Winter Builder Charm","Winter Charm","Winter Hoarder Charm","Winter Miser Charm","Winter Screw Charm","Winter Spring Charm","Winter Wood Charm","Yellow Double Sponge Charm","Yellow Sponge Charm"]
+    weapon: ["Chrome Circlet of Pursuing", "Circlet of Pursuing", "Circlet of Seeking", "New Horizon", "Golem Guardian", "Event Horizon", "Infinite Winter Horizon", "Droid Archmagus", "Chrome Grand Arcanum", "Chrome Arcane Capturing Rod Of Never Yielding Mystery", "Grand Arcanum", "Boiling Cauldron", "Anniversary Arcane Capturing Rod Of Never Yielding Mystery", "Arcane Capturing Rod Of Never Yielding Mystery", "Sprinkly Cupcake Surprise", "Arcane Blast", "Nutcracker Nuisance", "Obelisk of Incineration", "Obelisk of Slumber", "Dragon Slayer Cannon", "Chrome Storm Wrought Ballista", "Storm Wrought Ballista", "Tulip Turret", "Dragonvine Ballista", "Blazing Ember Spear", "Ice Maiden", "Cemetery Gate Grappler", "Harrowing Holiday Harpoon Harp", "Dragon Lance", "Chrome Thought Obliterator", "Thought Obliterator", "Tome of the Mind\'s Eye", "Thought Manipulator", "Infinite Labyrinth", "Endless Labyrinth", "Crystal Mineral Crusher", "Crystal Crucible", "Festive Forgotten Fir", "Stale Cupcake Golem", "Scarlet Ember Root", "Tarannosaurus Rex", "Father Winter\'s Timepiece", "The Forgotten Art of Dance", "Anniversary Ancient Box", "Ancient Box", "Forgotten Pressure Plate", "Chrome School of Sharks", "Queso Fount", "School of Sharks", "Rune Shark", "Chrome Phantasmic Oasis", "Phantasmic Oasis", "Bubbles: The Party Crasher", "Chrome Oasis Water Node", "Oasis Water Node", "Haunted Shipwreck", "Steam Laser Mk. II", "Steam Laser Mk. III", "Glacier Gatler", "Heat Bath", "S.S. Scoundrel Sleigher", "Steam Laser Mk. I", "Paradise Falls", "S.U.P.E.R. Scum Scrubber", "Ice Blaster", "Ancient Spear Gun", "Holiday Hydro Hailstone", "Isle Idol", "Double Diamond Adventure", "Kraken Chaos", "Harpoon Gun", "Scum Scrubber", "Net Cannon", "Explosive Toboggan Ride", "Steam Laser Mk. II (Broken!)", "S.T.I.N.G.E.R.", "Ember Prison Core", "S.T.I.N.G.", "Meteor Prison Core", "Judge Droid", "The Holiday Express", "Limited Edition", "Engine Doubler", "Queso Factory", "Bandit Deflector", "Surprise Party", "Supply Grabber", "Christmas Cactus", "Law Laser", "S.L.A.C. II", "The Law Draw", "S.L.A.C.", "Charming PrinceBot", "Smoldering Stone Sentinel", "Chrome MonstroBot", "Sandstorm MonstroBot", "Sandtail Sentinel", "Chrome RhinoBot", "Rocket Propelled Gavel", "Warden Slayer", "New Year\'s Fireworks", "Enraged RhinoBot", "Chrome Onyx Mallet", "Carousel Charger", "Icy RhinoBot", "RhinoBot", "Warpath Thrasher", "Chrome DrillBot", "Onyx Mallet", "Digby DrillBot", "Chrome DeathBot", "Anniversary DeathBot", "Christmas Cracker", "Fluffy DeathBot", "Grungy DeathBot", "Mouse DeathBot", "PartyBot", "Birthday Party Piñata Bonanza", "Birthday Candle Kaboom", "NVMRC Forcefield", "Snowglobe", "Pneumatic Tube", "Ultra MegaMouser MechaBot", "Shrink Ray", "HitGrab Rainbow Rockin\' Horse", "HitGrab Rockin\' Horse", "Festive Gauntlet Crusher", "Swiss Army Mouse", "Wrapped Gift", "Ancient Gauntlet", "Mouse Rocketine", "Mouse Trebuchet", "HitGrab Horsey", "500 Pound Spiked Crusher", "Mouse Mary O'Nette", "High Tension Spring", "Mouse Hot Tub", "Chrome Tacky Glue", "Tacky Glue", "Chrome Celestial Dissonance", "Celestial Dissonance", "Timesplit Dissonance", "Mysteriously unYielding Null-Onyx Rampart of Cascading Amperes", "Focused Crystal Laser", "Biomolecular Re-atomizer", "Darkest Chocolate Bunny", "Rift Glacier Gatler", "Christmas Crystalabra", "Wacky Inflatable Party People", "Multi-Crystal Laser", "Crystal Tower", "Infinite Dark Magic Mirrors", "Dark Magic Mirrors", "Chrome Temporal Turbine", "Cheese Seeking Lighthouse", "Temporal Turbine", "Goldfrost Crossbow", "Interdimensional Crossbow", "Moonbeam Barrier", "Clockwork Portal", "The Haunted Manor", "Anniversary Reaper\'s Perch", "Reaper\'s Perch", "Dreaded Totem", "Sandcastle Shard", "Clockapult of Time", "Clockapult of Winter Past", "Maniacal Brain Extractor", "Admiral\'s Galleon", "Terrifying Spider", "Cackle Lantern", "Soul Harvester", "Brain Extractor", "Gorgon", "Candy Crusher", "Creepy Coffin", "Soul Catcher", "Bottomless Grave", "Chrome Nannybot", "Pumpkin Pummeler", "Sinister Portal", "Ambrosial Portal", "Slumbering Boulder", "Gouging Geyserite", "Sleeping Stone", "Chrome Sphynx Wrath", "Sphynx Wrath", "Dimensional Chest ", "Cloaking Droid", "Chesla\'s Revenge", "Zugzwang\'s Ultimate Move", "Zugzwang\'s First Move", "Well of Wisdom", "Veiled Vine", "Horrific Venus Mouse", "Thorned Venus Mouse", "Blackstone Pass", "Obvious Ambush", "Anniversary Ambush", "Ambush", "Ninja Ambush", "Zurreal\'s Folly", "Rewers Riposte", "Giant Speaker", "S.A.M. F.E.D. DN-5", "2010 Blastoff", "2012 Big Boom", "Mutated Venus Mouse", "Zugzwang\'s Last Move", "Gingerbread House Surprise", "Venus Mouse", "Snow Barrage", "Mystic Pawn Pincher", "Technic Pawn Pincher"],
+    base: ["Adorned Empyrean Refractor Base", "Minotaur Base", "Clockwork Base", "Tidal Base", "Glowing Golem Guardian Base", "Spellbook Base", "Desert Heater Base", "Golden Tournament Base", "Thief Base", "Monolith Base", "Refined Pollutinum Base", "Attuned Enerchi Induction Base", "Polluted Base", "Prestige Base", "Fissure Base", "Depth Charge Base", "Living Grove Base", "Overgrown Ember Stone Base", "Forecaster Base", "Soiled Base", "Silver Tournament Base", "Papyrus Base", "Tiger Jade Base", "Dog Jade Base", "Ox Jade Base", "Pig Jade Base", "Rat Jade Base", "Gemology Base", "Electromagnetic Meteorite Base", "Molten Shrapnel Base", "Monkey Jade Base", "Rooster Jade Base", "Alchemist\'s Cookbook Base", "Bamboozler Base", "Chocolate Bar Base", "Deadwood Plank Base", "Hallowed Ground Base", "Sheep Jade Base", "Horse Jade Base", "Condemned Base", "Ice Cream Cake Base", "Birthday Ube Cake Base", "Birthday Confetti Cake Base", "Iceberg Boiler Base", "Spiked Base", "Birthday Banana Cake Base", "10 Layer Birthday Cake Base", "Dragon Jade Base", "Eerier Base", "Jade Base", "Mist Meter Regulator Base", "Remote Detonator Base", "Snake Jade Base", "Sprinkly Sweet Cupcake Birthday Base", "Eerie Base", "Extra Sweet Cupcake Birthday Base", "Magma Base", "Cupcake Birthday Base", "Bronze Tournament Base", "Explosive Base", "Firecracker Base", "Skello-ton Base", "Ancient Booster Base", "Candy Cane Base", "Physical Brace Base", "Seasonal Base", "Vegetation Base", "Rift Mist Diffuser Base", "Living Base", "Rift Base", "Claw Shot Base", "Magnet Base", "Washboard Base", "Aurora Base", "Hothouse Base", "Aqua Base", "Signature Series Denture Base", "Gingerbread Base", "Dehydration Base", "2022 New Year\'s Base", "2021 New Year\'s Base", "2020 New Year\'s Base", "Tiki Base", "Tribal Kaboom Base", "Runic Base", "All Season Express Track Base", "Elixir Exchanger Base", "Fracture Base", "Polar Base", "2017 New Year\'s Base", "2018 New Year\'s Base", "2019 New Year\'s Base", "Ultimate Iceberg Base", "Bacon Base", "Hearthstone Base", "Crushed Birthday Cake Base", "Tribal Base", "Fan Base", "Birthday Cake Base", "Chocolate Birthday Cake Base", "Birthday Dragée Cake Base", "Carrot Birthday Cake Base", "Cheesecake Base", "Treasure Seeker Base", "Stone Base", "Labyrinth Base", "Black Widow Base", "Denture Base", "Enerchi Induction Base", "Furoma Base", "Compass Magnet Base", "Festive Winter Hunt Base", "Gift of the Day Base", "Seasonal Gift of the Day Base", "Wooden Base with Target", "Deep Freeze Base", "Wooden Base"],
+    bait: ["Abominable Asiago", "Ancient Cheese", "Ancient String Cheese", "Arctic Asiago Cheese", "Ascended Cheese", "Bland Queso", "Bonefort Cheese", "Brie Cheese", "Brie String Cheese", "Candy Corn Cheese", "Checkmate Cheese", "Chedd-Ore Cheese", "Cheddar Cheese", "Cherry Cheese", "Cloud Cheesecake", "Coggy Colby Cheese", "Combat Cheese", "Creamy Havarti Cheese", "Crescent Cheese", "Crimson Cheese", "Crunchy Cheese", "Crunchy Havarti Cheese", "Cupcake Colby", "Dewthief Camembert", "Diamond Cheese", "Dragonvine Cheese", "Dumpling Cheese", "Duskshade Camembert", "Empowered Brie Cheese", "Empowered SUPER|brie+", "Extra Rich Cloud Cheesecake", "Extra Sweet Cupcake Colby", "Festive Feta", "Fishy Fromage", "Flamin\' Queso", "Fusion Fondue", "Galleon Gouda", "Gauntlet Cheese Tier 2", "Gauntlet Cheese Tier 3", "Gauntlet Cheese Tier 4", "Gauntlet Cheese Tier 5", "Gauntlet Cheese Tier 6", "Gauntlet Cheese Tier 7", "Gauntlet Cheese Tier 8", "Gauntlet String Cheese", "Gemstone Cheese", "Ghastly Galleon Gouda", "Ghoulgonzola Cheese", "Gilded Cheese", "Gingerbread Cheese", "Glazed Pecan Pecorino Cheese", "Glowing Gruyere Cheese", "Glutter Cheese", "Gnarled Cheese", "Gouda Cheese", "Graveblossom Camembert", "Grilled Cheese", "Gumbo Cheese", "Hot Queso", "Inferno Havarti Cheese", "Lactrodectus Lancashire Cheese", "Limelight Cheese", "Lockbox Limburger Cheese", "Lunaria Camembert", "Magical Havarti Cheese", "Magical Rancid Radioactive Blue Cheese", "Magical String Cheese", "Maki Cheese", "Maki String Cheese", "Marble Cheese", "Marble String Cheese", "Marshmallow Monterey", "Master Fusion Cheese", "Medium Queso", "Mild Queso", "Mineral Cheese", "Monterey Jack-O-Lantern", "Moon Cheese", "Mozzarella Cheese", "Nian Gao\'da Cheese", "Null Onyx Gorgonzola", "Nutmeg Cheese", "Onyx Gorgonzola", "Pecan Pecorino Cheese", "Polluted Parmesan Cheese", "Polter-Geitost", "Pungent Havarti Cheese", "Radioactive Blue Cheese", "Rainy Cheese", "Rancid Radioactive Blue Cheese", "Resonator Cheese", "Rewind Raclette", "Rift Combat Cheese", "Rift Glutter Cheese", "Rift Rumble Cheese", "Rift Susheese Cheese", "Riftiago Cheese", "Rockforth Cheese", "Rumble Cheese", "Runic Cheese", "Runic String Cheese", "Runny Cheese", "Scream Cheese", "Seasoned Gouda", "Shell Cheese", "Sky Pirate Swiss Cheese", "Snowball Bocconcini", "Speedy Coggy Colby", "Spicy Havarti Cheese", "Sunrise Cheese", "SUPER|brie+", "Susheese Cheese", "Sweet Havarti Cheese", "Swiss Cheese", "Swiss String Cheese", "Terre Ricotta Cheese", "Undead Emmental", "Undead String Emmental", "Vanilla Stilton Cheese", "Vengeful Vanilla Stilton Cheese", "White Cheddar Cheese", "Wicked Gnarly Cheese", "Wildfire Queso", "Windy Cheese"],
+    trinket: ["2014 Charm", "2015 Charm", "2016 Charm", "2017 Charm", "2018 Charm", "2019 Charm", "2020 Charm", "2021 Charm", "2022 Charm", "Airship Charm", "Amplifier Charm", "Ancient Charm", "Antiskele Charm", "Artisan Charm", "Athlete Charm", "Attraction Charm", "Baitkeep Charm", "Black Powder Charm", "Blue Double Sponge Charm", "Brain Charm", "Bravery Charm", "Brilliant Water Jet Charm", "Cackle Charm", "Cactus Charm", "Candy Charm", "Champion Charm", "Charged", "Cherry Charm", "Chrome Charm", "Clarity Charm", "Compass Magnet Charm", "Crucible Cloning Charm", "Cupcake Charm", "Dark Chocolate Charm", "Derr Power Charm", "Diamond Boost Charm", "Door Guard Charm", "Dragonbane Charm", "Dragonbreath Charm", "Dreaded Charm", "Dusty Coal Charm", "Eggscavator Charge Charm", "Eggstra Charge Charm", "Eggstra Charm", "Elub Power Charm", "Ember Charm", "EMP400 Charm", "Empowered Anchor Charm", "Enerchi Charm", "Extra Sweet Cupcake Charm", "Extreme Ancient Charm", "Extreme Attraction Charm", "Extreme Dragonbane Charm", "Extreme Luck Charm", "Extreme Party Charm", "Extreme Polluted Charm", "Extreme Power Charm", "Extreme Queso Pump Charm", "Extreme Regal Charm", "Extreme Snowball Charm", "Extreme Spooky Charm", "Extreme Wealth Charm", "Factory Repair Charm", "Festive Anchor Charm", "Festive Ultimate Luck Charm", "Festive Ultimate Lucky Power Charm", "Festive Ultimate Power Charm", "Firecracker Charm", "First Ever Charm", "Flamebane Charm", "Forgotten Charm", "Freshness Charm", "Gargantua Charm", "Gemstone Boost Charm", "Gift Wrapped Charm", "Gilded Charm", "Gloomy Gathering Charm", "Glowing Gourd Charm", "Gnarled Charm", "Golden Anchor Charm", "Golem Guardian Charm", "Greasy Glob Charm", "Growth Charm", "Grub Salt Charm", "Grub Scent Charm", "Grubling Bonanza Charm", "Grubling Chow Charm", "Horsepower Charm", "Hunter's Horn Rewind Charm", "Hydro Charm", "Lantern Oil Charm", "Let It Snow Charm", "Luck Charm", "Lucky Power Charm", "Lucky Rabbit Charm", "Lucky Valentine Charm", "Magmatic Crystal Charm", "Mining Charm", "Mobile Charm", "Monger Charm", "Monkey Fling Charm", "Nanny Charm", "Nerg Power Charm", "Nightlight Charm", "Nightshade Farming Charm", "Nitropop Charm", "Oxygen Burst Charm", "Party Charm", "Pointy Charm", "Polluted Charm", "Power Charm", "Prospector's Charm", "Queso Pump Charm", "Rainbow Charm", "Ramming Speed Charm", "Reality Restitch Charm", "Realm Ripper Charm", "Red Double Sponge Charm", "Red Sponge Charm", "Regal Charm", "Rift 2020 Charm", "Rift 2021 Charm", "Rift 2022 Charm", "Rift Airship Charm", "Rift Antiskele Charm", "Rift Charm", "Rift Chrome Charm", "Rift Extreme Luck Charm", "Rift Extreme Power Charm", "Rift Extreme Snowball Charm", "Rift Luck Charm", "Rift Power Charm", "Rift Snowball Charm", "Rift Spooky Charm", "Rift Super Luck Charm", "Rift Super Power Charm", "Rift Super Snowball Charm", "Rift Super Vacuum Charm", "Rift Tarnished Charm", "Rift Ultimate Luck Charm", "Rift Ultimate Lucky Power Charm", "Rift Ultimate Power Charm", "Rift Ultimate Snowball Charm", "Rift Vacuum Charm", "Rift Wealth Charm", "Roof Rack Charm", "Rook Crumble Charm", "Rotten Charm", "Safeguard Charm", "Scholar Charm", "Scientist's Charm", "Searcher Charm", "Shadow Charm", "Shamrock Charm", "Shattering Charm", "Sheriff's Badge Charm", "Shielding Charm", "Shine Charm", "Shortcut Charm", "Small Power Charm", "Smart Water Jet Charm", "Snakebite Charm", "Snowball Charm", "Soap Charm", "Softserve Charm", "Spellbook Charm", "Spiked Anchor Charm", "Sponge Charm", "Spooky Charm", "Spore Charm", "Sprinkly Sweet Cupcake Charm", "Stagnant Charm", "Stalemate Charm", "Sticky Charm", "Striker Charm", "Super Ancient Charm", "Super Attraction Charm", "Super Brain Charm", "Super Cactus Charm", "Super Dragonbane Charm", "Super Enerchi Charm", "Super Lantern Oil Charm", "Super Luck Charm", "Super Nightshade Farming Charm", "Super Party Charm", "Super Polluted Charm", "Super Power Charm", "Super Queso Pump Charm", "Super Regal Charm", "Super Rotten Charm", "Super Salt Charm", "Super Snowball Charm", "Super Soap Charm", "Super Spooky Charm", "Super Spore Charm", "Super Warpath Archer Charm", "Super Warpath Cavalry Charm", "Super Warpath Commander's Charm", "Super Warpath Mage Charm", "Super Warpath Scout Charm", "Super Warpath Warrior Charm", "Super Wax Charm", "Super Wealth Charm", "Supply Schedule Charm", "Tarnished Charm", "Taunting Charm", "Timesplit Charm", "Torch Charm", "Treasure Trawling Charm", "Ultimate Anchor Charm", "Ultimate Ancient Charm", "Ultimate Attraction Charm", "Ultimate Charm", "Ultimate Dragonbane Charm", "Ultimate Luck Charm", "Ultimate Lucky Power Charm", "Ultimate Party Charm", "Ultimate Polluted Charm", "Ultimate Power Charm", "Ultimate Snowball Charm", "Ultimate Spooky Charm", "Ultimate Spore Charm", "Ultimate Wealth Charm", "Uncharged Scholar Charm", "Unstable Charm", "Valentine Charm", "Warpath Archer Charm", "Warpath Cavalry Charm", "Warpath Commander's Charm", "Warpath Mage Charm", "Warpath Scout Charm", "Warpath Warrior Charm", "Water Jet Charm", "Wax Charm", "Wealth Charm", "Wild Growth Charm", "Winter Builder Charm", "Winter Charm", "Winter Hoarder Charm", "Winter Miser Charm", "Winter Screw Charm", "Winter Spring Charm", "Winter Wood Charm", "Yellow Double Sponge Charm", "Yellow Sponge Charm"]
 };
 
 // // Best weapon/base/charm/bait pre-determined by user. Edit ur best weapon/base/charm/bait in ascending order. e.g. [best, better, good]
 var objBestTrap = {
-    weapon : {
-        arcane : ['New Horizon Trap','Event Horizon','Chrome Grand Arcanum','Grand Arcanum Trap','Chrome Arcane Capturing Rod','Arcane Blast Trap','Arcane Capturing Rod Of Nev'],
-        draconic : ['Dragon Lance','Ice Maiden'],
-        forgotten : ['Chrome Thought Obliterator','Infinite Labyrinth Trap','Infinite Winter Horizon Trap','Endless Labyrinth Trap','Crystal Crucible Trap','Stale Cupcake Golem Trap','Tarannosaurus Rex Trap','Crystal Mineral Crusher Trap','The Forgotten Art of Dance'],
-        hydro : ['School of Sharks','Rune Shark Trap','Chrome Phantasmic Oasis Trap','Phantasmic Oasis Trap','Oasis Water Node','Steam Laser Mk. III','Steam Laser Mk. II','Steam Laser Mk. I','Ancient Spear Gun'],
-        law : ['Meteor Prison Core Trap','The Law Draw','Law Laser Trap','Engine Doubler','Bandit Deflector','Supply Grabber','S.L.A.C. II','S.L.A.C.'],
-        physical : ['Chrome MonstroBot','Sandstorm MonstroBot','Sandtail Sentinel','Enraged RhinoBot'],
-        rift : ['Mysteriously unYielding','Multi-Crystal Laser','Focused Crystal Laser','Biomolecular Re-atomizer Trap','Crystal Tower'],
-        shadow : ['Temporal Turbine','Moonbeam Barrier','Clockwork Portal Trap','Reaper\'s Perch','Dreaded Totem Trap','Candy Crusher Trap','Clockapult of Time','Clockapult of Winter Past'],
-        tactical : ['Chrome Sphynx Wrath','Sphynx Wrath','Zugzwang\'s Ultimate Move','Zugzwang\'s First Move']
+    weapon: {
+        arcane: ['Chrome Circlet of Pursuing', 'Circlet of Pursuing', 'Circlet of Seeking', 'New Horizon', 'Golem Guardian', 'Event Horizon', 'Infinite Winter Horizon', 'Droid Archmagus', 'Chrome Grand Arcanum', 'Chrome Arcane Capturing Rod Of Never Yielding Mystery', 'Grand Arcanum', 'Boiling Cauldron', 'Anniversary Arcane Capturing Rod Of Never Yielding Mystery', 'Arcane Capturing Rod Of Never Yielding Mystery', 'Sprinkly Cupcake Surprise', 'Arcane Blast', 'Nutcracker Nuisance', 'Obelisk of Incineration', 'Obelisk of Slumber'],
+        draconic: ['Dragon Slayer Cannon', 'Chrome Storm Wrought Ballista', 'Storm Wrought Ballista', 'Tulip Turret', 'Dragonvine Ballista', 'Blazing Ember Spear', 'Ice Maiden', 'Cemetery Gate Grappler', 'Harrowing Holiday Harpoon Harp', 'Dragon Lance'],
+        forgotten: ['Chrome Thought Obliterator', 'Thought Obliterator', 'Tome of the Mind\'s Eye', 'Thought Manipulator', 'Infinite Labyrinth', 'Endless Labyrinth', 'Crystal Mineral Crusher', 'Crystal Crucible', 'Festive Forgotten Fir', 'Golem Guardian', 'Stale Cupcake Golem', 'Scarlet Ember Root', 'Tarannosaurus Rex', 'Father Winter\'s Timepiece', 'The Forgotten Art of Dance', 'Anniversary Ancient Box', 'Ancient Box', 'Forgotten Pressure Plate'],
+        hydro: ['Chrome School of Sharks', 'Queso Fount', 'Golem Guardian', 'School of Sharks', 'Rune Shark', 'Chrome Phantasmic Oasis', 'Phantasmic Oasis', 'Bubbles: The Party Crasher', 'Chrome Oasis Water Node', 'Oasis Water Node', 'Haunted Shipwreck', 'Steam Laser Mk. II', 'Steam Laser Mk. III', 'Glacier Gatler', 'Heat Bath', 'S.S. Scoundrel Sleigher', 'Steam Laser Mk. I', 'Paradise Falls', 'S.U.P.E.R. Scum Scrubber', 'Ice Blaster', 'Ancient Spear Gun', 'Holiday Hydro Hailstone', 'Isle Idol', 'Double Diamond Adventure', 'Kraken Chaos', 'Harpoon Gun', 'Scum Scrubber', 'Net Cannon', 'Explosive Toboggan Ride', 'Steam Laser Mk. II (Broken!)'],
+        law: ['S.T.I.N.G.E.R.', 'Ember Prison Core', 'S.T.I.N.G.', 'Meteor Prison Core', 'Judge Droid', 'The Holiday Express', 'Limited Edition', 'Engine Doubler', 'Queso Factory', 'Bandit Deflector', 'Surprise Party', 'Supply Grabber', 'Christmas Cactus', 'Law Laser', 'S.L.A.C. II', 'The Law Draw', 'S.L.A.C.'],
+        physical: ['Charming PrinceBot', 'Smoldering Stone Sentinel', 'Chrome MonstroBot', 'Sandstorm MonstroBot', 'Golem Guardian', 'Sandtail Sentinel', 'Chrome RhinoBot', 'Rocket Propelled Gavel', 'Warden Slayer', 'New Year\'s Fireworks', 'Enraged RhinoBot', 'Chrome Onyx Mallet', 'Isle Idol', 'Carousel Charger', 'Icy RhinoBot', 'RhinoBot', 'Warpath Thrasher', 'Chrome DrillBot', 'Onyx Mallet', 'Digby DrillBot', 'Chrome DeathBot', 'Anniversary DeathBot', 'Christmas Cracker', 'Fluffy DeathBot', 'Grungy DeathBot', 'Mouse DeathBot', 'PartyBot', 'Birthday Party Piñata Bonanza', 'Birthday Candle Kaboom', 'NVMRC Forcefield', 'Snowglobe', 'Pneumatic Tube', 'Ultra MegaMouser MechaBot', 'Shrink Ray', 'HitGrab Rainbow Rockin\' Horse', 'HitGrab Rockin\' Horse', 'Festive Gauntlet Crusher', 'Swiss Army Mouse', 'Wrapped Gift', 'Ancient Gauntlet', 'Mouse Rocketine', 'Mouse Trebuchet', 'HitGrab Horsey', '500 Pound Spiked Crusher', 'Mouse Mary O\'Nette', 'High Tension Spring', 'Mouse Hot Tub', 'Chrome Tacky Glue', 'Tacky Glue'],
+        rift: ['Chrome Celestial Dissonance', 'Celestial Dissonance', 'Timesplit Dissonance', 'Mysteriously unYielding Null-Onyx Rampart of Cascading Amperes', 'Focused Crystal Laser', 'Biomolecular Re-atomizer', 'Darkest Chocolate Bunny', 'Rift Glacier Gatler', 'Christmas Crystalabra', 'Wacky Inflatable Party People', 'Multi-Crystal Laser', 'Crystal Tower'],
+        shadow: ['Infinite Dark Magic Mirrors', 'Dark Magic Mirrors', 'Chrome Temporal Turbine', 'Cheese Seeking Lighthouse', 'Temporal Turbine', 'Goldfrost Crossbow', 'Interdimensional Crossbow', 'Moonbeam Barrier', 'Clockwork Portal', 'The Haunted Manor', 'Anniversary Reaper\'s Perch', 'Reaper\'s Perch', 'Dreaded Totem', 'Sandcastle Shard', 'Clockapult of Time', 'Clockapult of Winter Past', 'Maniacal Brain Extractor', 'Admiral\'s Galleon', 'Terrifying Spider', 'Cackle Lantern', 'Soul Harvester', 'Brain Extractor', 'Gorgon', 'Candy Crusher', 'Creepy Coffin', 'Soul Catcher', 'Bottomless Grave', 'Chrome Nannybot', 'Pumpkin Pummeler', 'Sinister Portal', 'Ambrosial Portal'],
+        tactical: ['Slumbering Boulder', 'Gouging Geyserite', 'Sleeping Stone', 'Chrome Sphynx Wrath', 'Sphynx Wrath', 'Dimensional Chest', 'Golem Guardian', 'Cloaking Droid', 'Chesla\'s Revenge', 'Zugzwang\'s Ultimate Move', 'Zugzwang\'s First Move', 'Well of Wisdom', 'Isle Idol', 'Veiled Vine', 'Horrific Venus Mouse', 'Thorned Venus Mouse', 'Blackstone Pass', 'Obvious Ambush', 'Anniversary Ambush', 'Ambush', 'Ninja Ambush', 'Zurreal\'s Folly', 'Rewers Riposte', 'Giant Speaker', 'S.A.M. F.E.D. DN-5', '2010 Blastoff', '2012 Big Boom', 'Mutated Venus Mouse', 'Zugzwang\'s Last Move', 'Gingerbread House Surprise', 'Venus Mouse', 'Snow Barrage', 'Mystic Pawn Pincher', 'Technic Pawn Pincher'],
     },
-    base : {
-        luck : ['Minotaur Base','Fissure Base','Rift Base','Attuned Enerchi Induction Base','Monkey Jade Base','Sheep Jade Base','Depth Charge Base','Horse Jade Base','Snake Jade Base','Dragon Jade Base','Eerier Base','Papyrus Base'],
-        power : ['Minotaur Base','Tidal Base','Golden Tournament Base','Spellbook Base']
+    base: {
+        luck: ['Adorned Empyrean Refractor Base', 'Minotaur Base', 'Clockwork Base', 'Fissure Base', 'Overgrown Ember Stone Base', 'Birthday Banana Cake Base', 'Rift Base', '10 Layer Birthday Cake Base', '2017 New Year\'s Base', '2018 New Year\'s Base', '2019 New Year\'s Base', '2020 New Year\'s Base', '2021 New Year\'s Base', '2022 New Year\'s Base', 'Alchemist\'s Cookbook Base', 'All Season Express Track Base', 'Ancient Booster Base', 'Attuned Enerchi Induction Base', 'Birthday Confetti Cake Base', 'Birthday Ube Cake Base', 'Black Widow Base', 'Chocolate Bar Base', 'Condemned Base', 'Deadwood Plank Base', 'Depth Charge Base', 'Desert Heater Base', 'Dog Jade Base', 'Dragon Jade Base', 'Eerier Base', 'Elixir Exchanger Base', 'Enerchi Induction Base', 'Festive Winter Hunt Base', 'Forecaster Base', 'Fracture Base', 'Furoma Base', 'Gemology Base', 'Gift of the Day Base', 'Glowing Golem Guardian Base', 'Hallowed Ground Base', 'Horse Jade Base', 'Ice Cream Cake Base', 'Labyrinth Base', 'Magma Base', 'Monkey Jade Base', 'Ox Jade Base', 'Papyrus Base', 'Pig Jade Base', 'Rat Jade Base', 'Refined Pollutinum Base', 'Rooster Jade Base', 'Seasonal Gift of the Day Base', 'Sheep Jade Base', 'Snake Jade Base', 'Thief Base', 'Tidal Base', 'Tiger Jade Base', 'Treasure Seeker Base'],
+        power: ['Signature Series Denture Base', 'Prestige Base', 'Adorned Empyrean Refractor Base', 'Minotaur Base', 'Clockwork Base', 'Overgrown Ember Stone Base', 'Tidal Base', 'Golden Tournament Base', 'Spellbook Base']
     }
 };
 
@@ -924,6 +924,8 @@ function specialFeature(caller){
 function eventLocationCheck(caller) {
     var selAlgo = getStorageToVariableStr("eventLocation", "None");
     switch (selAlgo){
+        case 'School of Sorcery':
+            SOS(); break;
         case 'Burroughs Rift(Red)':
             BurroughRift(true, 19, 20); break;
         case 'Burroughs Rift(Green)':
@@ -1022,6 +1024,9 @@ function eventLocationCheck(caller) {
 function autoEventLocationCheck(caller) {
     var currLoc = getPageVariable('user.environment_name');
     switch (currLoc){
+        case 'School of Sorcery':
+            console.plog("auto location School of Sorcery");
+            SOS(); break;
         case 'Iceberg':
             console.plog("auto location iceIcebergberg");
             iceberg(); break;
@@ -1105,6 +1110,18 @@ function autoEventLocationCheck(caller) {
         case 'Fort Rox':
             console.plog("auto location Fort Rox");
             fortRox(); break;
+        case 'Queso River':
+            console.plog("auto location Queso River");
+            Queso_loc(); break;
+        case 'Queso Geyser':
+            console.plog("auto location Queso Geyser");
+            Queso_loc(); break;
+        case 'Cantera Quarry':
+            console.plog("auto location Cantera Quarry");
+            Queso_loc(); break;
+        case 'Prickly Plains':
+            console.plog("auto location Prickly Plains");
+            Queso_loc(); break;
         case 'Moussu Picchu':
             console.plog("auto location Moussu Picchu");
             mPicchu(); break;
@@ -1129,6 +1146,58 @@ function autoEventLocationCheck(caller) {
     //    console.plog("Spring Egg 12");
     //    checkCharge(17);
     //}
+}
+
+function SOS(){
+    if (GetCurrentLocation().indexOf("School of Sorcery") < 0)
+        return;
+    stats = user.enviroment_atts;
+    if (stats.in_course) {
+    }
+    else {
+        var enroll_buttons = document.getElementsByClassName('schoolOfSorceryHallwayView__startCourse schoolOfSorceryHallwayView__startCourse');
+        if (false && (stats.items.arcane_sunstone_stat_item.quantity_unformatted > 300) && (stats.items.shadown_moonstone_stat_item.quantity_unformatted > 300)) {
+            fireEvent(enroll_buttons[2], 'click');
+        } else if (stats.items.arcane_sunstone_stat_item.quantity_unformatted < stats.items.shadow_moonstone_stat_item.quantity_unformatted) {
+            console.log('enroll in arcane');
+            checkThenArm('best', 'weapon', objBestTrap.weapon.arcane);
+            window.setTimeout(function () {
+                fireEvent(enroll_buttons[0], 'click');
+            }, 1500);
+        } else {
+            console.log('enroll in shadow');
+            checkThenArm('best', 'weapon', objBestTrap.weapon.shadow);
+            window.setTimeout(function () {
+                fireEvent(enroll_buttons[1], 'click');
+            }, 1500);
+        }
+        
+        // if (enroll_buttons[2].className.indexOf('schoolOfSorceryHallwayView__startCourse--disabled') < 0) {
+        // }
+        
+        window.setTimeout(function () {
+            fireEvent(document.getElementsByClassName('schoolOfSorceryEnrollCourseDialogView__enrollCourseDialogButton schoolOfSorceryEnrollCourseDialogView__enrollCourseButton active')[0], 'click'); 
+        }, 3000);
+        window.setTimeout(function () {
+            fireEvent(document.getElementsByClassName('schoolOfSorceryEnrollCourseDialogView__confirmDialogButton schoolOfSorceryEnrollCourseDialogView__confirmDialogEnrollButton')[0], 'click'); 
+        }, 4500);
+        // if (stats.items.apprentice_amber_stat_item.quantity_unformatted >= 600) {
+        //     window.setTimeout(function () {
+        //         fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitBuyButton')[1], 'click');
+        //         document.getElementsByClassName('upsellItemActionView-action-quantity')[1].value = 20;
+        //         window.setTimeout(function () { fireEvent(document.getElementsByClassName('upsellItemActionView-action-button mousehuntActionButton tiny')[1], 'click'); }, 1500);
+        //         window.setTimeout(function () { fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitImage')[1], 'click'); }, 3000);
+        //     }, 4500);
+        // }
+        if (stats.items.apprentice_amber_stat_item.quantity_unformatted >= 60) {
+            window.setTimeout(function () {
+                fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitBuyButton')[0], 'click');
+                document.getElementsByClassName('upsellItemActionView-action-quantity')[1].value = Math.ceil((60 - stats.items.apprentice_ambert_cheese.quantity_unformatted)/3);
+                window.setTimeout(function () { fireEvent(document.getElementsByClassName('upsellItemActionView-action-button mousehuntActionButton tiny')[1], 'click'); }, 1500);
+                window.setTimeout(function () { fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitImage')[0], 'click'); }, 3000);
+            }, 6000);
+        }
+    }
 }
 
 function allLGArea(){
@@ -1913,6 +1982,136 @@ function ges(){
     checkThenArm(null, 'weapon', objGES[strStage].weapon);
     checkThenArm(null, 'base', objGES[strStage].base);
     checkThenArm(null, 'bait', objGES[strStage].bait);
+}
+
+
+function findCommonElements(arr1, arr2) {
+    if (arr1 == null || arr2 == null) return;
+    return arr1.some(item => arr2.includes(item))
+}
+
+function Queso_loc(){
+    magic_dict_qr = ["Croquet Crusher", "Croquet Crusher","Pump Raider","Tiny Saboteur", "Sleepy Merchant",]
+    magic_dict_pp = {"Bland Queso": ["Spice Seer","Old Spice Collector"],
+                     "Mild Queso": ["Spice Farmer", "Granny Spice"],
+                     "Medium Queso": ["Spice Finder","Spice Sovereign",],
+                     "Hot Queso": ["Spice Reaper","Spice Raider",]};
+    magic_dict_cq = {"Bland Queso": ["Chip Chiseler","Tiny Toppler"],
+                     "Mild Queso": ["Ore Chipper", "Rubble Rummager"],
+                     "Medium Queso": ["Nachore Golem", "Rubble Rouser",],
+                     "Hot Queso": ["Grampa Golem", "Fiery Crusher",]};
+    magic_dict_qg = {"Bland Queso": ["Fuzzy Drake"],
+                     "Mild Queso": ["Cork Defender",],
+                     "Medium Queso": ["Burly Bruiser",],
+                     "Hot Queso": ["Corky, the Collector","Horned Cork Hoarder"],
+                     "Flamin' Queso": [ "Rambunctious Rain Rumbler"],
+                     "Wildfire Queso": ["Corkataur"]};
+    magic_dict_qg2 = {"Mild Queso": ["Warming Wyvern",],
+                      "Medium Queso": ["Steam Sailor",],
+                      "Hot Queso": ["Vaporior"],
+                      "Flamin' Queso": ["Pyrehyde"],
+                      "Wildfire Queso": ["Emberstone Scaled"]};
+    qg_bait = ["Hot Queso","Medium Queso", "Mild Queso", "Bland Queso"]
+    //let remaining_mice = JSON.parse(localStorage.getItem("tsitu-maptem-mapmice"));
+    //if (remaining_mice == null) return;
+    //console.plog("Mode = 2");
+    //console.log(remaining_mice);
+    if (user.environment_name == "Prickly Plains"){
+        if (objBestTrap.weapon.arcane[0] == "" ) objBestTrap.weapon.arcane.shift();
+        if(user.bait_name == "SUPER|brie+") checkThenArm(null, 'bait', "Medium Queso");
+        checkThenArm('best', 'weapon', objBestTrap.weapon.arcane);
+        console.plog("user in pp");
+        qg_bait = ["Bland Queso", "Mild Queso", "Medium Queso", "Hot Queso"]
+        for (const check_bait of qg_bait){
+            console.log("checking", check_bait);
+            if (findCommonElements(magic_dict_pp[check_bait], remaining_mice)){
+                checkThenArm(null, 'bait', check_bait);
+                console.log(check_bait, "present")
+                return;
+            }
+        }
+        for (const check_bait of qg_bait){
+            if (findCommonElements(magic_dict_cq[check_bait], remaining_mice)){
+                checkThenArm('best', 'weapon', objBestTrap.weapon.shadow);
+                checkThenArm(null, 'bait', check_bait);
+                Travel("queso_quarry");
+                return;
+            }
+        }
+        console.plog(findCommonElements(magic_dict_pp["Bland Queso"], remaining_mice));
+    }
+    if (user.environment_name == "Cantera Quarry"){
+        checkThenArm('best', 'weapon', objBestTrap.weapon.shadow);
+        console.log("reached");
+        console.plog("user in cq");
+        for (const check_bait of qg_bait){
+            console.log("checking", check_bait);
+            if (findCommonElements(magic_dict_cq[check_bait], remaining_mice)){
+                checkThenArm(null, 'bait', check_bait);
+                console.log(check_bait, "present")
+                return;
+            }
+        }
+        let temp = true;
+        for (const check_bait of qg_bait){
+            if (findCommonElements(magic_dict_qg[check_bait], remaining_mice)){
+                checkThenArm('best', 'weapon', objBestTrap.weapon.draconic);
+                checkThenArm(null, 'bait', check_bait);
+                Travel("queso_geyser");
+                console.log("yes");
+                temp = false;
+                return;
+            }
+        }
+        checkThenArm('best', 'weapon', objBestTrap.weapon.arcane);
+        checkThenArm(null, 'bait', 'Mild Queso');
+        Travel("queso_plains");
+    }
+    if (user.environment_name == "Queso Geyser"){
+        console.log("before", objBestTrap.weapon.draconic);
+        if (objBestTrap.weapon.draconic[0] == "" ) {objBestTrap.weapon.draconic.shift(); console.log("reached 2");}
+        console.log("after", objBestTrap.weapon.draconic);
+        console.log("here",objBestTrap.weapon.draconic);
+        checkThenArm('best', 'weapon', objBestTrap.weapon.draconic);
+        if (user.quests.QuestQuesoGeyser.state != "collecting") {console.log("wrong stage"); return;}
+        if (user.quests.QuestQuesoGeyser.state == "collecting"){
+            ext = ["Flamin' Queso", "Wildfire Queso"]
+            for (const check_bait of ext.concat(qg_bait)){
+                console.log("checking", check_bait);
+                if (findCommonElements(magic_dict_qg[check_bait], remaining_mice)){
+                    checkThenArm(null, 'bait', check_bait);
+                    console.log(check_bait, "present")
+                    return;
+                }
+            }
+        }
+        if (user.quests.QuestQuesoGeyser.state == "corked") {
+            for (const check_bait of ext.concat(qg_bait)){
+                console.log("checking", check_bait);
+                if (user.quests.QuestQuesoGeyser.max_pressure == 35) {qg_bait = ["Mild Queso", "Bland Queso", "Hot Queso", "Medium Queso"]}
+                if (findCommonElements(magic_dict_qg2[check_bait], remaining_mice)){
+                    checkThenArm(null, 'bait', check_bait);
+                    console.log(check_bait, "present")
+                    return;
+                }
+            }
+        }
+        if (user.quests.QuestQuesoGeyser.state == "collecting") {
+            checkThenArm('best', 'weapon', objBestTrap.weapon.arcane);
+            checkThenArm(null, 'bait', 'Bland Queso');
+            Travel("queso_plains");}
+    }
+    if (user.environment_name == "Queso River") {
+        if (findCommonElements(magic_dict_qr, remaining_mice)){
+            checkThenArm(null, 'bait', 'SUPER');
+        }
+        else {
+            checkThenArm('best', 'weapon', objBestTrap.weapon.arcane);
+            checkThenArm(null, 'bait', 'Bland Queso');
+            checkThenArm(null, 'bait', 'Bland Queso');
+            Travel("queso_plains");
+        }
+    }
 }
 
 function wwrift(){
@@ -3438,10 +3637,9 @@ function ssFactory(){
     }
 }
 
-async function halloween(){
+function halloween(){
     if(GetCurrentLocation().indexOf('Gloomy Greenwood') < 0)
         return;
-    await new Promise(r => setTimeout(r, 2500 + 1000 * Math.random()));
     var hud = document.getElementsByClassName('halloweenBoilingCauldronHUD-cauldronContainer')[0];
     for (var i = 0; i < 2; i++) {
         var curr = hud.children[i]
@@ -3449,16 +3647,19 @@ async function halloween(){
         if (! last.className.includes("active")){
             fireEvent(curr.children[1].children[0], 'click');
             console.log("can brew")
-            await new Promise(r => setTimeout(r, 2500 + 1000 * Math.random()));
+            sleep(2500 + 1000 * Math.random());
+            console.log(1)
             var popup = document.getElementById("overlayPopup")
             var brews = popup.getElementsByClassName("halloweenBoilingCauldronRecipeView-recipeList")[0]
             var brewed = false
             for (var j = 0; j < 5; j++){
                 var curr_brew = brews.children[j]
+                console.log(2)
                 while (!curr_brew.className.includes("disabled")){
+                    console.log(3)
                     console.log("can brew", j)
                     fireEvent(curr_brew.children[2].children[0], 'click');
-                    await new Promise(r => setTimeout(r, 2500 + 1000 * Math.random()));
+                    sleep(2500 + 1000 * Math.random());
                     brewed = true
                 }
                 if (brewed){
@@ -3466,26 +3667,25 @@ async function halloween(){
                 }
             }
             fireEvent(popup.getElementsByClassName("jsDialogContainer")[0].children[1], "click")
-            await new Promise(r => setTimeout(r, 2500 + 1000 * Math.random()));
+            sleep(2500 + 1000 * Math.random());
             break;
         }
     }
     var bait_elements = document.getElementsByClassName("halloweenBoilingCauldronHUD-baitContainer")[0].children
     for (i = 4; i >=0; i--){
         var curr_bait = bait_elements[i]
-        var count = parseInt(curr_bait.children[1].innerHTML)
-        if (count <= 5){
-            continue;
-        }
         if (curr_bait.className.includes("active")){
             break;
         }
+        var count = parseInt(curr_bait.children[1].innerHTML)
         if (i == 0){
             fireEvent(curr_bait.children[0].children[0], "click")
             break
         }
-        fireEvent(curr_bait.children[0], "click")
-        break
+        if (count > 5){
+            fireEvent(curr_bait.children[0], "click")
+            break
+        }
     }
 }
 
@@ -5358,7 +5558,8 @@ function clickTrapSelector(strSelect, bForceClick){ //strSelect = weapon/base/ch
     if(isNullOrUndefined(bForceClick))
         bForceClick = false;
     if(isNewUI){
-        var armedItem = document.getElementsByClassName('campPage-trap-armedItem ' + strSelect)[0];
+        console.log(strSelect);
+        var armedItem = document.querySelectorAll('[data-item-classification="'+strSelect+'"]')[0];
         var arrTemp = armedItem.getAttribute('class').split(" ");
         if(bForceClick !== true && arrTemp[arrTemp.length-1] == 'active'){ // trap selector opened
             arming = true;
