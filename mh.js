@@ -1195,9 +1195,11 @@ function SOS(){
                 window.setTimeout(function () {
                     fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitBuyButton')[0], 'click');
                     document.getElementsByClassName('upsellItemActionView-action-quantity')[1].value = Math.ceil((60 - stats.items.apprentice_ambert_cheese.quantity_unformatted)/3);
-                    window.setTimeout(function () { fireEvent(document.getElementsByClassName('upsellItemActionView-action-button mousehuntActionButton tiny')[1], 'click'); }, 1500);
-                    window.setTimeout(function () { fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitImage')[0], 'click'); }, 3000);
+                    window.setTimeout(function () {
+                        fireEvent(document.getElementsByClassName('upsellItemActionView-action-button mousehuntActionButton tiny')[1], 'click');
+                    }, 1500);
                 }, 6000);
+                window.setTimeout(function () { fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitImage')[0], 'click'); }, 9000);
             }
         }
     }
