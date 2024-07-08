@@ -1199,8 +1199,8 @@ function SOS(){
                         fireEvent(document.getElementsByClassName('upsellItemActionView-action-button mousehuntActionButton tiny')[1], 'click');
                     }, 1500);
                 }, 6000);
-                window.setTimeout(function () { fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitImage')[0], 'click'); }, 9000);
             }
+            window.setTimeout(function () { fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitImage')[0], 'click'); }, 9000);
         }
     }
 }
