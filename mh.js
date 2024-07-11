@@ -1190,11 +1190,11 @@ function SOS(){
         //     }, 4500);
         // }
         if (stats.items.apprentice_amber_stat_item.quantity_unformatted >= 60) {
-            var to_buy_quantity = Math.ceil((60 - stats.items.apprentice_amber_stat_item.quantity_unformatted) / 3);
+            var to_buy_quantity = Math.ceil((60 - stats.items.apprentice_ambert_cheese.quantity_unformatted) / 3);
             if (to_buy_quantity > 0) {
                 window.setTimeout(function () {
                     fireEvent(document.getElementsByClassName('headsUpDisplaySchoolOfSorceryView__baitBuyButton')[0], 'click');
-                    document.getElementsByClassName('upsellItemActionView-action-quantity')[1].value = Math.ceil((60 - stats.items.apprentice_ambert_cheese.quantity_unformatted)/3);
+                    document.getElementsByClassName('upsellItemActionView-action-quantity')[1].value = to_buy_quantity;
                     window.setTimeout(function () {
                         fireEvent(document.getElementsByClassName('upsellItemActionView-action-button mousehuntActionButton tiny')[1], 'click');
                     }, 1500);
