@@ -3681,10 +3681,10 @@ function halloween(){
     var bait_elements = document.getElementsByClassName("halloweenBoilingCauldronHUD-baitContainer")[0].children
     for (i = 4; i >=0; i--){
         var curr_bait = bait_elements[i]
-        if (curr_bait.className.includes("active")){
+        var count = parseInt(curr_bait.children[1].innerHTML)
+        if (curr_bait.className.includes("active") && count > 5){
             break;
         }
-        var count = parseInt(curr_bait.children[1].innerHTML)
         if (i == 0){
             fireEvent(curr_bait.children[0].children[0], "click")
             break
