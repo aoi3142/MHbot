@@ -5564,7 +5564,8 @@ function clickTrapSelector(strSelect, bForceClick){ //strSelect = weapon/base/ch
         bForceClick = false;
     if(isNewUI){
         console.log(strSelect);
-        var armedItem = document.querySelectorAll('[data-item-classification="'+strSelect+'"]')[0];
+        var armedItem = document.querySelectorAll('[data-item-classification="'+strSelect+'"]');
+        armedItem = armedItem[armedItem.length-1];
         var arrTemp = armedItem.getAttribute('class').split(" ");
         if(bForceClick !== true && arrTemp[arrTemp.length-1] == 'active'){ // trap selector opened
             arming = true;
