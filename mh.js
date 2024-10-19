@@ -3644,6 +3644,31 @@ function ssFactory(){
     }
 }
 
+function brewPotions(brews, layers){
+    if (layers > 5){
+        return;
+    }
+    var brewed = false
+    for (var j = 4; j >= 0; j--){
+        var curr_brew = brews.children[j]
+        if (!curr_brew.className.includes("disabled")){
+            console.log("can brew", j)
+            fireEvent(curr_brew.children[2].children[0], 'click');
+            window.setTimeout(function () {
+                brewPotions(brews, layers + 1);
+            }, 4500);
+            brewed = true
+            return true;
+        }
+    }
+    if (!brewed){
+        var popup = document.getElementById("overlayPopup");
+        fireEvent(popup.getElementsByClassName("jsDialogContainer")[0].children[1], "click")
+    }
+    return false;
+}
+
+
 function halloween(){
     if(GetCurrentLocation().indexOf('Gloomy Greenwood') < 0)
         return;
@@ -3654,27 +3679,12 @@ function halloween(){
         if (! last.className.includes("active")){
             fireEvent(curr.children[1].children[0], 'click');
             console.log("can brew")
-            sleep(2500 + 1000 * Math.random());
             console.log(1)
-            var popup = document.getElementById("overlayPopup")
-            var brews = popup.getElementsByClassName("halloweenBoilingCauldronRecipeView-recipeList")[0]
-            var brewed = false
-            for (var j = 0; j < 5; j++){
-                var curr_brew = brews.children[j]
-                console.log(2)
-                while (!curr_brew.className.includes("disabled")){
-                    console.log(3)
-                    console.log("can brew", j)
-                    fireEvent(curr_brew.children[2].children[0], 'click');
-                    sleep(2500 + 1000 * Math.random());
-                    brewed = true
-                }
-                if (brewed){
-                    break;
-                }
-            }
-            fireEvent(popup.getElementsByClassName("jsDialogContainer")[0].children[1], "click")
-            sleep(2500 + 1000 * Math.random());
+            window.setTimeout(function () {
+                var popup = document.getElementById("overlayPopup");
+                var brews = popup.getElementsByClassName("halloweenBoilingCauldronRecipeView-recipeList")[0];
+                brewPotions(brews, 0);
+            }, 1500);
             break;
         }
     }
@@ -3682,7 +3692,7 @@ function halloween(){
     for (i = 4; i >=0; i--){
         var curr_bait = bait_elements[i]
         var count = parseInt(curr_bait.children[1].innerHTML)
-        if (curr_bait.className.includes("active") && count > 5){
+        if (curr_bait.className.includes("active") && (count > 5 || i == 0)){
             break;
         }
         if (i == 0){
